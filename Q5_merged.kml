@@ -1,0 +1,223 @@
+<kml xmlns="http://earth.google.com/kml/2.0">
+    <Document>
+        <Style id="z1">
+            <IconStyle>
+                <Icon>
+                    <href>
+                        http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png
+                    </href>
+                </Icon>
+            </IconStyle>
+            
+        </Style>
+        
+        <Folder>
+            <name>Cafes</name>
+            <description> Placemarks for 5 cafes on USC UPC campus. </description>
+        <Placemark>
+            <name>Tutor Hall Cafe</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.289830, 34.019907, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cafe Feat Illy</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.287241, 34.020991, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Law School Cafe</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.284529, 34.018755, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Literatea</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.283325, 34.020104, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Starbucks</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.282256, 34.021690, 0</coordinates>
+            </Point>
+        </Placemark>
+        </Folder>
+        <Folder>
+            <name>Sports and Recreation</name>
+            <description> Placemarks for 5 sports and recreation facilities on USC UPC campus </description>
+        <Placemark>
+            <name>Cromwell Field</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.288512, 34.022559, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Uytengsu Center</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.288427, 34.023917, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lyon Center</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.288349, 34.024391, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Village Center</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.285939, 34.024823, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Merle Stadium</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.281463, 34.020185, 0</coordinates>
+            </Point>
+        </Placemark>
+        </Folder>
+        <Folder>
+            <name>Libraries</name>
+            <description> Placemarks for 5 libraries on the USC UPC campus </description>
+        <Placemark>
+            <name>Doheny Library</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.283749, 34.020021, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>VKC Library</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.284002, 34.021257, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Leavey Library</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.282788, 34.021708, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hoose Library</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.286608, 34.018686, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Science Library</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.288794, 34.019598, 0</coordinates>
+            </Point>
+        </Placemark>
+        </Folder>
+        <Placemark>
+            <name>Convex Hull Polygon</name>
+            <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>
+                            -118.286608,34.018686,0
+                            -118.28983,34.019907,0
+                            -118.288349,34.024391,0
+                            -118.285939,34.024823,0
+                            -118.282256,34.02169,0
+                            -118.281463,34.020185,0
+                            -118.284529,34.018755,0
+                            -118.286608,34.018686,0
+                        </coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+            <Style>
+                <PolyStyle>
+                  <color>#7dff0000</color>
+                </PolyStyle>
+            </Style>
+        </Placemark>
+        <Folder>
+            <name> Nearest Neighbors to Cafe Feat Illy</name>
+            <Placemark>
+                <name> Neighbor Cromwell </name>
+                <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>
+                    -118.287241,34.020991,0 -118.288512,34.022559,0
+                </coordinates>
+                </LineString>
+                <Style>
+                  <LineStyle>
+                    <color>#ff0000ff</color>
+                    <width>2</width>
+                  </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name> Neighbor Science Library </name>
+                <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>
+                    -118.287241,34.020991,0 -118.288794,34.019598,0
+                </coordinates>
+                </LineString>
+                <Style>
+                  <LineStyle>
+                    <color>#ff0000ff</color>
+                    <width>2</width>
+                  </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name> Neighbor Hoose Library </name>
+                <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>
+                    -118.287241,34.020991,0 -118.286608,34.018686,0
+                </coordinates>
+                </LineString>
+                <Style>
+                  <LineStyle>
+                    <color>#ff0000ff</color>
+                    <width>2</width>
+                  </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name> Neighbor Tutor Hall Cafe </name>
+                <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>
+                    -118.287241,34.020991,0 -118.289830,34.019907,0
+                </coordinates>
+                </LineString>
+                <Style>
+                  <LineStyle>
+                    <color>#ff0000ff</color>
+                    <width>2</width>
+                  </LineStyle>
+                </Style>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
